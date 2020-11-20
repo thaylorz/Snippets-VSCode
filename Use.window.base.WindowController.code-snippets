@@ -1,0 +1,14 @@
+{
+	"Window controller base": {
+		"prefix": "genwinctrlbase",
+		"body": [
+			"Ext.define('App.${TM_FILEPATH}', {",
+			"    extend: 'Use.window.base.WindowController',",
+			"    alias: 'controller.windowcontroller-${TM_FILEPATH}',",
+			"",
+			"    $0",
+			"});"
+		],
+		"description": "Window controller base"
+	}
+}
