@@ -20,7 +20,7 @@
 			"    askBeforeClose: false,",
 			"",
 			"    initComponent: function () {",
-			"        var me = this;",
+			"        const me = this;",
 			"",
 			"        me.layout = 'anchor';",
 			"",
