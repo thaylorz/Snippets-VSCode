@@ -1,0 +1,12 @@
+{
+	"use-newbutton": {
+		"prefix": "cmpbuttonnovo",
+		"body": [
+			"xtype: 'use-newbutton',",
+			"listeners: {",
+			"    click: 'onClick${1:Novo}'",
+			"}$0"
+		],
+		"description": "use-newbutton"
+	}
+}

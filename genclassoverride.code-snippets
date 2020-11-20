@@ -1,0 +1,11 @@
+{
+	"override": {
+		"prefix": "genclassoverride",
+		"body": [
+			"Ext.define('App.${TM_FILEPATH}', {",
+			"    override: '$2'",
+			"});"
+		],
+		"description": "override"
+	}
+}

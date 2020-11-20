@@ -1,0 +1,14 @@
+{
+	"izy-container-hbox": {
+		"prefix": "cmphbox",
+		"body": [
+			"xtype: 'izy-container-hbox',",
+			"items [",
+			"  {",
+			"    $0",
+			"  }",
+			"]"
+		],
+		"description": "izy-container-hbox"
+	}
+}

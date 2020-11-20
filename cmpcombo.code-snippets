@@ -1,0 +1,14 @@
+{
+	"use-combobox": {
+		"prefix": "cmpcombo",
+		"body": [
+			"xtype: 'use-combobox',",
+			"fieldLabel: model$1.getFieldLabel('$2'),",
+			"$3bind: {",
+			"    $3value: '{$1.$2}'",
+			"$3},",
+			"store: Use.Enums.getValue('$4', '$5')"
+		],
+		"description": "use-combobox"
+	}
+}

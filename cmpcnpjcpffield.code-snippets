@@ -1,0 +1,14 @@
+{
+	"use-cpfcnpjfield": {
+		"prefix": "cmpcnpjcpffield",
+		"body": [
+			"xtype: 'use-cpfcnpjfield',",
+			"fieldLabel: model$1.getFieldLabel('$2'),",
+			"$3bind: {",
+			"    $3value: '{$1.$2}'",
+			"$3},",
+			"$4allowBlank: false$0"
+		],
+		"description": "use-cpfcnpjfield"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"use-cepfield": {
+		"prefix": "cmpcepfield",
+		"body": [
+			"xtype: 'use-cepfield',",
+			"$3bind: {",
+			"    $3value: '{$1.$2}'",
+			"$3}$0"
+		],
+		"description": "use-cepfield"
+	}
+}

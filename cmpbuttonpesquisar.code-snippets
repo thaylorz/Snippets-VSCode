@@ -1,0 +1,12 @@
+{
+	"use-searchbutton": {
+		"prefix": "cmpbuttonpesquisar",
+		"body": [
+			"xtype: 'use-searchbutton',",
+			"listeners: {",
+			"    click: 'onClick${1:Pesquisar}'",
+			"}$0"
+		],
+		"description": "use-searchbutton"
+	}
+}

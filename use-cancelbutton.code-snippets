@@ -1,0 +1,13 @@
+{
+	"use-cancelbutton": {
+		"prefix": "cmpbuttoncancel",
+		"body": [
+			"xtype: 'use-cancelbutton',",
+			"text: '${1:Fechar}',",
+			"listeners: {",
+			"    click: 'onClickCancelar'",
+			"}$0"
+		],
+		"description": "use-cancelbutton"
+	}
+}

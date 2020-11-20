@@ -1,0 +1,13 @@
+{
+	"use-checkbox": {
+		"prefix": "cmpcheck",
+		"body": [
+			"xtype: 'use-checkbox',",
+			"fieldLabel: model$1.getFieldLabel('$2'),",
+			"$3bind: {",
+			"    $3value: '{$1.$2}'",
+			"$3}"
+		],
+		"description": "use-checkbox"
+	}
+}

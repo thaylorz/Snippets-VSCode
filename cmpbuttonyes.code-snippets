@@ -1,0 +1,13 @@
+{
+	"use-yesbutton": {
+		"prefix": "cmpbuttonyes",
+		"body": [
+			"xtype: 'use-yesbutton',",
+			"text: '$1',",
+			"listeners: {",
+			"    click: 'onClick$2'",
+			"}$0"
+		],
+		"description": "use-yesbutton"
+	}
+}

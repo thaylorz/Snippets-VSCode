@@ -1,0 +1,18 @@
+{
+	"use-button": {
+		"prefix": "cmpbuttonmenu",
+		"body": [
+			"xtype: 'use-button',",
+			"text: '${1:Mais opções}',",
+			"menu: {",
+			"    items: [{",
+			"        text: '$2',",
+			"        listeners: {",
+			"            click: 'onClick$3'",
+			"        }",
+			"    }]",
+			"}$0"
+		],
+		"description": "use-button"
+	}
+}

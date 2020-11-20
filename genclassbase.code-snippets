@@ -1,0 +1,15 @@
+{
+	"genclassbase": {
+		"prefix": "genclassbase",
+		"body": [
+			"Ext.define('App.${TM_FILEPATH}', {",
+			"    extend: '$2',",
+			"    alias: 'widget.$3-${TM_FILEPATH}',",
+			"",
+			"    $0",
+			"",
+			"});"
+		],
+		"description": "genclassbase"
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"Ext.app.ViewModel": {
+		"prefix": "genwinvwmbase",
+		"body": [
+			"Ext.define('App.${TM_FILEPATH}', {",
+			"    extend: 'Ext.app.ViewModel',",
+			"    alias: 'viewmodel.windowviewmodel-${TM_FILEPATH',",
+			"",
+			"    requires: [",
+			"        'App.model.${TM_FILEPATH'",
+			"    ],",
+			"",
+			"    links: {",
+			"        ${3:Modelo}: {",
+			"            type: 'App.model.${TM_FILEPATH}',",
+			"            create: true",
+			"        }",
+			"    },",
+			"",
+			"    formulas: {",
+			"        $0",
+			"    }",
+			"});"
+		],
+		"description": "Ext.app.ViewModel"
+	}
+}

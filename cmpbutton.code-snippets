@@ -1,0 +1,13 @@
+{
+	"use-button": {
+		"prefix": "cmpbutton",
+		"body": [
+			"xtype: 'use-button',",
+			"text: '$1',",
+			"listeners: {",
+			"    click: 'onClick$2'",
+			"}$0"
+		],
+		"description": "use-button"
+	}
+}
