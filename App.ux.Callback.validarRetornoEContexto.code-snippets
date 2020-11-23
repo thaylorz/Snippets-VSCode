@@ -2,7 +2,7 @@
 	"App.ux.Callback.validarRetornoEContexto": {
 		"prefix": "cbvalretcon",
 		"body": [
-			"App.ux.Callback.validarRetornoEContexto($vw, function (response) {",
+			"App.ux.Callback.validarRetornoEContexto(\\$vw, function (response) {",
 			"  ${1}",
 			"})"
 		],

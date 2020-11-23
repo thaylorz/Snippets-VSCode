@@ -2,7 +2,7 @@
 	"App.ux.Callback.validarRetornoERemoverMask": {
 		"prefix": "cbvalretremmask",
 		"body": [
-			"App.ux.Callback.validarRetornoERemoverMask($vw, function (response) {",
+			"App.ux.Callback.validarRetornoERemoverMask(\\$vw, function (response) {",
 			"  ${1}",
 			"})"
 		],

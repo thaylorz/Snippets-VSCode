@@ -2,7 +2,7 @@
 	"App.ux.Callback.validarRetornoERemoverMaskSeOcorrerErro": {
 		"prefix": "cbvalretremmaskerro",
 		"body": [
-			"App.ux.Callback.validarRetornoERemoverMaskSeOcorrerErro($vw, function (response) {",
+			"App.ux.Callback.validarRetornoERemoverMaskSeOcorrerErro(\\$vw, function (response) {",
 			"  ${1}",
 			"})"
 		],

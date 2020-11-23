@@ -2,7 +2,7 @@
 	"App.ux.Callback.bloquearInteracoesTela": {
 		"prefix": "cbbloqinter",
 		"body": [
-			"App.ux.Callback.bloquearInteracoesTela($vw, $cmp, function (response) {",
+			"App.ux.Callback.bloquearInteracoesTela(\\$vw, \\$cmp, function (response) {",
 			"  ${1}",
 			"})"
 		],

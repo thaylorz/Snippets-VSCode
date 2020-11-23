@@ -2,7 +2,7 @@
 	"App.ux.Callback.validar": {
 		"prefix": "cbvct",
 		"body": [
-			"App.ux.Callback.validarContexto($vw, function (response) {",
+			"App.ux.Callback.validarContexto(\\$vw, function (response) {",
 			"  ${1}",
 			"})"
 		],
