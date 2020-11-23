@@ -1,0 +1,11 @@
+{
+	"App.ux.Callback.padrao": {
+		"prefix": "cbpdr",
+		"body": [
+			"App.ux.Callback.padrao(function (response) {",
+			"  ${1}",
+			"})"
+		],
+		"description": "App.ux.Callback.padrao"
+	}
+}

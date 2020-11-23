@@ -4,10 +4,10 @@
 		"body": [
 			"Ext.define('App.${TM_FILEPATH}', {",
 			"    extend: 'Ext.app.ViewModel',",
-			"    alias: 'viewmodel.windowviewmodel-${TM_FILEPATH',",
+			"    alias: 'viewmodel.windowviewmodel-${TM_FILEPATH}',",
 			"",
 			"    requires: [",
-			"        'App.model.${TM_FILEPATH'",
+			"        'App.model.${TM_FILEPATH}'",
 			"    ],",
 			"",
 			"    links: {",

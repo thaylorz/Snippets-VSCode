@@ -1,0 +1,14 @@
+{
+	"Use.grid.base.ListaController": {
+		"prefix": "genlistactrlbase",
+		"body": [
+			"Ext.define('App.$1${TM_FILEPATH}', {",
+			"    extend: 'Use.grid.base.ListaController',",
+			"    alias: 'controller.listacontroller-$2${TM_FILEPATH}',",
+			"",
+			"    $0",
+			"});"
+		],
+		"description": "Use.grid.base.ListaController"
+	}
+}
