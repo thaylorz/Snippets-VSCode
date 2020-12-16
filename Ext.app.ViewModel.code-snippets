@@ -1,0 +1,21 @@
+{
+	"Ext.app.ViewModel": {
+		"prefix": "genlistavwmbase",
+		"body": [
+			"Ext.define('App.${1}${TM_FILEPATH}', {",
+			"    extend: 'Ext.app.ViewModel',",
+			"    alias: 'viewmodel.listaviewmodel-${2}${TM_FILEPATH}',",
+			"",
+			"    requires: [",
+			"    ],",
+			"",
+			"    stores: {",
+			"        Store: {",
+			"            type: '${0}'",
+			"        }",
+			"    }",
+			"});"
+		],
+		"description": "Ext.app.ViewModel"
+	}
+}

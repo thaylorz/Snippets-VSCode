@@ -1,0 +1,14 @@
+{
+	"App.ux.grid.base.ListaController": {
+		"prefix": "genlistactrlcad",
+		"body": [
+			"Ext.define('App.${1}${TM_FILEPATH}', {",
+			"    extend: 'App.ux.grid.base.ListaController',",
+			"    alias: 'controller.listacontroller-${2}${TM_FILEPATH}',",
+			"",
+			"    ${0}",
+			"});"
+		],
+		"description": "App.ux.grid.base.ListaController"
+	}
+}

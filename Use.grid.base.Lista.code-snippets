@@ -1,0 +1,27 @@
+{
+	"Use.grid.base.Lista": {
+		"prefix": "genlistabase",
+		"body": [
+			"Ext.define('App.$1${TM_FILEPATH}', {",
+			"  extend: 'Use.grid.base.Lista',",
+			"  alias: 'widget.lista-${TM_FILEPATH}',",
+			"",
+			"  requires: [",
+			"  ],",
+			"",
+			"  header: false,",
+			"",
+			"  initComponent: function () {",
+			"    const me = this;",
+			"",
+			"    me.tbar = null;",
+			"",
+			"    me.columns = App.${TM_FILEPATH}.cmp.ColumnsModel.get();",
+			"",
+			"    me.callParent();",
+			"  }",
+			"});"
+		],
+		"description": "Use.grid.base.Lista"
+	}
+}

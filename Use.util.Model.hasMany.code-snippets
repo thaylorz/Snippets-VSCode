@@ -1,0 +1,15 @@
+{
+	"Use.util.Model.hasMany": {
+		"prefix": "genutilmodelhasMany",
+		"body": [
+			"hasMany: [",
+			"    Use.util.Model.hasMany({",
+			"        name: '${1}',",
+			"        associationKey: '${1}',",
+			"        model: '${2}'",
+			"    })",
+			"],"
+		],
+		"description": "Use.util.Model.hasMany"
+	}
+}

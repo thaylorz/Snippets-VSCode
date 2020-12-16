@@ -1,0 +1,20 @@
+{
+	"App.ux.model.base.Identificador": {
+		"prefix": "genmodelbase",
+		"body": [
+			"Ext.define('App.${1}${TM_FILEPATH}', {",
+			"    extend: 'App.ux.model.base.Identificador',",
+			"",
+			"    requires: [",
+			"    ],",
+			"",
+			"    fields: [",
+			"      ${0}",
+			"    ],",
+			"",
+			"    proxy: 'memory'",
+			"});"
+		],
+		"description": "App.ux.model.base.Identificador"
+	}
+}

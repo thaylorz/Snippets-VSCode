@@ -1,0 +1,22 @@
+{
+	"App.ux.model.tenant.Processo": {
+		"prefix": "genmodelproc",
+		"body": [
+			"Ext.define('App.${1}${TM_FILEPATH}', {",
+			"    extend: 'App.ux.model.tenant.Processo',",
+			"    ",
+			"    requires: [",
+			"    ],    ",
+			"",
+			"    fields: [",
+			"        ${0}",
+			"    ],",
+			"",
+			"    proxy: Use.util.Model.getProxy({",
+			"        controller: '${2}'",
+			"    })",
+			"});"
+		],
+		"description": "App.ux.model.tenant.Processo"
+	}
+}

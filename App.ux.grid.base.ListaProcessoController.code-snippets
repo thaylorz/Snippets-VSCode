@@ -1,0 +1,38 @@
+{
+	"App.ux.grid.base.ListaProcessoController": {
+		"prefix": "genlistactrlproc",
+		"body": [
+			"Ext.define('App.${1}${TM_FILEPATH}', {",
+			"    extend: 'App.ux.grid.base.ListaProcessoController',",
+			"    alias: 'controller.listacontroller-${2}${TM_FILEPATH}',",
+			"",
+			"    requires: [",
+			"    ],",
+			"",
+			"    onClickMenuImprimir: function() {",
+			"        const me = this,",
+			"            \\$vw = me.getView(),",
+			"            storeRelatorios = Ext.create('App.store.estoque.listasrelatorios.Relatorios');",
+			"",
+			"        App.ux.print.Print.printEspelho({",
+			"            store: storeRelatorios,",
+			"            list: \\$vw,",
+			"            idcolumn: '',",
+			"            namespace: ''",
+			"        });",
+			"    },",
+			"",
+			"    onClickMenuCancelar: function($menuItem, selection) {",
+			"        this.autenticar({",
+			"            records: selection,",
+			"            fn: 'cancelar',",
+			"            local: Use.Enums.getValue('EnumLocalHistorico', '')",
+			"        });",
+			"    },",
+			"",
+			"    ${0}",
+			"});"
+		],
+		"description": "App.ux.grid.base.ListaProcessoController"
+	}
+}

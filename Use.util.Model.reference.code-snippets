@@ -1,0 +1,9 @@
+{
+	"Use.util.Model.reference": {
+		"prefix": "genutilmodelreference",
+		"body": [
+			"name: '${1}', reference: Use.util.Model.reference({ type: '${2}', role: '${1}', associationKey: '${1}'}), persist: false"
+		],
+		"description": "Use.util.Model.reference"
+	}
+}

@@ -3,7 +3,7 @@
 		"prefix": "cmphbox",
 		"body": [
 			"xtype: 'izy-container-hbox',",
-			"items [",
+			"items: [",
 			"  {",
 			"    $0",
 			"  }",

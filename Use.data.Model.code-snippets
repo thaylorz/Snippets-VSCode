@@ -1,0 +1,20 @@
+{
+	"Use.data.Model": {
+		"prefix": "genmodelcore",
+		"body": [
+			"Ext.define('App.${1}${TM_FILEPATH}', {",
+			"    extend: 'Use.data.Model',",
+			"    ",
+			"    requires: [",
+			"    ],",
+			"    ",
+			"    fields: [",
+			"      ${0}",
+			"    ],",
+			"",
+			"    proxy: 'memory'",
+			"});"
+		],
+		"description": "Use.data.Model"
+	}
+}

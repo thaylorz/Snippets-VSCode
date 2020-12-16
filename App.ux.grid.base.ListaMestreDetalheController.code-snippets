@@ -1,0 +1,14 @@
+{
+	"App.ux.grid.base.ListaMestreDetalheController": {
+		"prefix": "genlistactrlmd",
+		"body": [
+			"Ext.define('App.${1}${TM_FILEPATH}', {",
+			"    extend: 'App.ux.grid.base.ListaMestreDetalheController',",
+			"    alias: 'controller.listacontroller-${2}${TM_FILEPATH}',",
+			"",
+			"    ${0}",
+			"});"
+		],
+		"description": "App.ux.grid.base.ListaMestreDetalheController"
+	}
+}

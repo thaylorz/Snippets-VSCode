@@ -1,0 +1,22 @@
+{
+	"App.ux.model.tenant.Cadastro": {
+		"prefix": "genmodelcad",
+		"body": [
+			"Ext.define('App.${1}${TM_FILEPATH}', {",
+			"    extend: 'App.ux.model.tenant.Cadastro',",
+			"    ",
+			"    requires: [",
+			"    ],",
+			"    ",
+			"    fields: [",
+			"        ${0}",
+			"    ],",
+			"",
+			"    proxy: Use.util.Model.getProxy({",
+			"        controller: '${2}'",
+			"    })",
+			"});"
+		],
+		"description": "App.ux.model.tenant.Cadastro"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"Use.data.Store": {
+		"prefix": "genstorebase",
+		"body": [
+			"Ext.define('App.${1}${TM_FILEPATH}', {",
+			"    extend: 'Use.data.Store',",
+			"    alias: 'store.store-${2}${TM_FILEPATH}',",
+			"",
+			"    model: ''",
+			"});"
+		],
+		"description": "Use.data.Store"
+	}
+}
